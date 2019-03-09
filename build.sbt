@@ -33,9 +33,9 @@ lazy val root = Project("spark-redshift", file("."))
 
       "com.amazonaws" % "aws-java-sdk" % "1.7.4" exclude("com.fasterxml.jackson.core", "jackson-databind"),
 
-      "org.apache.spark" %% "spark-core" % "2.2.0",
-      "org.apache.spark" %% "spark-sql" % "2.2.0",
-      "org.apache.spark" %% "spark-hive" % "2.2.0",
+      "org.apache.spark" %% "spark-core" % "2.4.0",
+      "org.apache.spark" %% "spark-sql" % "2.4.0",
+      "org.apache.spark" %% "spark-hive" % "2.4.0",
 
       "com.google.guava" % "guava" % "14.0.1" % "test",
       "org.scalatest" %% "scalatest" % "2.2.1" % "test",
